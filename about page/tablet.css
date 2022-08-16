@@ -1,0 +1,182 @@
+@media (max-width :768px) and (min-width:375px) {
+
+    .container {
+        width: 689px;
+        margin: 0 auto;
+    }
+    body{
+        width: 689px;
+        margin: 0 auto;
+    }
+
+
+    .for-image-header {
+        display: none;
+    }
+
+    .header {
+        width: 689px;
+        margin: 0 auto;
+    }
+
+    body {
+        width: 768px;
+    }
+
+    .header-item {
+        width: 280px;
+
+    }
+
+    /* header-section end */
+
+
+    /* hero section start */
+
+    .hero {
+        height: 400px;
+        width: 689px;
+        padding: 130px 60px;
+
+    }
+
+    .image-desktop {
+        display: none;
+    }
+
+    .image-tablet {
+        display: block;
+    }
+
+    .hero-title {
+        font-size: 32px;
+
+    }
+
+    .hero-text {
+        font-size: 15px;
+    }
+
+    /* hero section end */
+
+
+    /* our section start */
+
+    .our__text-tittle {
+        font-size: 32px;
+    }
+
+    .our__text-text {
+        margin-top: 30px;
+        width: 339px;
+
+    }
+
+    /* our section end */
+    /* quality section start */
+
+    .quality {
+        height: 500px;
+        padding: bottom 30px; 
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: end;
+        text-align: center;
+
+    }
+
+    .quality__tittle {
+        font-size: 32px;
+    }
+
+    .quality__text {
+        width: 573px;
+        margin-top: 32px;
+    }
+
+    .quality__img {
+        display: none;
+    }
+
+    .quality-tablet {
+        display: block;
+        position: absolute;
+        left: 55px;
+        bottom: 330px;
+    }
+
+    /* quality section end */
+
+    /* head section start */
+    .head {
+        margin: 0;
+        padding: 100px 0 20px;
+
+    }
+
+    .head-item {
+        width: 689px;
+        margin: 0;
+    }
+
+    .head__list-text {
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 16px;
+        color: #333D4B;
+        line-height: 24px;
+    }
+
+    /* head section end */
+    /* footer start */
+    
+    .footer {
+        margin-bottom: 50px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .footer-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__list {
+        margin: 20px 0;
+    }
+
+    .footer-image {
+        display: flex;
+    }
+
+    /* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,140 @@
+@media (max-width:376px) {
+    .container {
+        max-width: 328px;
+    }
+    .hamburger {
+        display: block;
+    }
+
+    .header-item-link {
+        display: none;
+
+    }
+
+    .hero {
+        border-radius: 20px;
+        padding: 0;
+    }
+
+    .hero-tittle {
+        width: 279px;
+        margin: 0 auto;
+    }
+
+    .hero-text {
+        width: 279px;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .plan {
+        width: 100%;
+        text-align: center;
+        padding: 100px 0;
+        height: 1028px;
+    }
+
+    .plan-img {
+        display: none;
+    }
+
+    .plan__item {
+        flex-direction: column;
+    }
+
+    .plan__list-item-title {
+        width: 327px;
+        margin: 20px auto;
+
+    }
+
+    .plan__list-item-text {
+
+        width: 327px;
+    }
+
+    .method-item {
+        width: 328px;
+
+    }
+
+    .method__right {
+        margin: 0 auto;
+        width: 328px;
+    }
+
+    .method__right-item {
+        margin: 0;
+        width: 328px;
+        flex-direction: column;
+    }
+
+    .method__right-title {
+        width: 230px;
+        margin: 0;
+        line-height: 28px;
+        font-size: 24px;
+    }
+
+    .method__right-list {
+        height: 140px;
+        width: 328px;
+        padding: 24px;
+        margin: 20px 0;
+    }
+
+    .method__right-list-tittle {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .method__right-list-text {
+        width: 278px;
+        line-height: 26px;
+    }
+
+    .method__bottom {
+        width: 328px;
+        height: 338px;
+        padding: 25px;
+    }
+
+    .method__bottom-title {
+        width: 275px;
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .method__bottom-text {
+        margin-top: 32px;
+    }
+
+    footer {
+        margin: 0 auto;
+        padding: 80px 0;
+        width: 328px;
+    }
+
+    .footer {
+        height: 200px;
+        width: 300px;
+        margin: 0;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .footer__link {
+        text-align: center;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .footer-icon {
+        width: 100px;
+    }
+
+    /* footer end */
+}
+}

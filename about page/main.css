@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fraunces', serif;
+
+
+}
+
+header {
+    display: grid;
+    place-items: center;
+
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+
+}
+
+.header {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+.header-item {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+
+}
+
+.herader-list {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1;
+    color: #83888F;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.for-image-header {
+    display: none;
+}
+
+/* header-section end */
+
+/* hero section start */
+
+.hero {
+    width: 100%;
+    height: 500px;
+    background-image: url(../image/banner\ header.jpg);
+    background-repeat: no-repeat;
+    padding: 130px 60px;
+
+}
+
+.hero-title {
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-bottom: 24px;
+}
+
+.hero-text {
+    width: 445px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+
+.image-tablet {
+    display: none;
+}
+
+.image-desktop {
+    display: block;
+}
+
+/* hero section end */
+
+/* our section start */
+
+.our {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 0;
+    padding-bottom: 300px;
+}
+
+
+.our__text-tittle {
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+
+
+}
+
+.our__text-text {
+    margin-top: 32px;
+    width: 540px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+/* our section end */
+
+/* quality section start */
+
+.quality {
+    position: relative;
+    background: #2C343E;
+    width: 100%;
+    border-radius: 5px;
+    height: 400px;
+    padding: 100px;
+
+}
+
+.quality__tittle {
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.quality__text {
+    width: 540px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    margin-top: 32px;
+}
+
+.quality-tablet {
+    display: none;
+}
+
+.quality__img {
+    position: absolute;
+    left: 780px;
+    bottom: 70px;
+}
+
+/* quality section end */
+
+/* head section start */
+.head {
+    padding: 100px 0 20px;
+    margin: 0 65px;
+
+}
+
+.header__list-tittle {
+    font-family: 'Fraunces 9pt';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin: 20px 0;
+
+}
+
+.head-item {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.head__list-text {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    color: #333D4B;
+    line-height: 24px;
+}
+
+/* head section end */
+/* footer start */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2C343E;
+    margin-bottom: 40px;
+    padding: 47px;
+}
+
+.footer__list {
+    display: flex;
+    list-style-type: none;
+    margin-left: 40px;
+
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+}
+
+.footer__list-link {
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #83888F;
+    text-transform: uppercase;
+}
+
+.footer-image {
+    display: flex;
+}
+
+.footer__image-list {
+    margin: 10px;
+}
+
+/* footer end */
